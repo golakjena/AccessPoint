@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AccessPoint</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/royalslider.css">     
+	<link rel="stylesheet" href="css/rs-default.css">
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!--Header Start-->
+	<header class="header clearfix">
+		<div class="container clearfix">
+			<div class="logo"><a href="index.html"><img id="logo" data-white="images/headerLlogo.png" data-red="images/footer-logo.png" src="images/headerLlogo.png" alt=""></a></div>
+			<a href="javascript:void(0);" class="btnMobileNav"><img src="images/btnMobileNav.png" alt=""></a>
+			<nav class="mobileNav">
+				<ul>
+					<li><a href="about-us.html">About Us</a>
+						<ul>
+							<li><a href="our-team.html">Our Team</a></li>
+							<li><a href="our-team.html">Giving Back</a></li>
+						</ul>
+					</li>
+					<li><a href="loan-programs.html">Loan Programs</a>
+						<ul>
+							<li><a href="bridge-financing.html">Bridge Financing</a></li>
+							<li><a href="cap-financing.html">CapEx/FF&amp;E Financing</a></li>
+							<li><a href="mortgage.html">Mortgage/New Construction</a></li>
+						</ul>
+					</li>
+					<li><a href="case-studies.html">Case Studies</a></li>
+					<li><a href="strategic-partners.html">Partners</a>
+						<ul>
+							<li><a href="strategic-partners.html">Our Strategic Partners</a></li>
+							<li><a href="financial-partners.html">Our Financial Partners</a></li>
+						</ul>
+					</li>
+					<li><a class="active" href="recent-transactions.html">Recent Transactions</a></li>
+					<li><a href="news.html">News</a>
+						<ul>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="events.html">Events</a></li>
+						</ul>
+					</li>
+					<li><a href="contact-us.html">Contact</a></li>
+					<li><a class="btnLogin" href="login.html"><span>Login</span></a></li>
+				</ul>
+			</nav>
+			<nav class="topNav">
+				<ul>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="loan-programs.html">Loan Programs</a></li>
+					<li><a href="case-studies.html">Case Studies</a></li>
+					<li><a href="strategic-partners.html">Partners</a></li>
+					<li><a class="active" href="recent-transactions.html">Recent Transactions</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="contact-us.html">Contact</a></li>
+					<li><a class="btnLogin" href="login.html"><span>Login</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="filterOuter clearfix">
+		<div class="container clearfix">
+			<div class="row clearfix">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+					<div class="filterLeft clearfix">
+						<span class="txtApplyFilters">Apply Filters:</span>
+						<div class="rangeOuter">
+							<h3>Loan Amount</h3>
+							<div id="slider-range"></div>
+							<div class="loanAmountOuter clearfix">
+								<span id="loanAmountLeft" class="loanAmountLeft"></span>
+								<span id="loanAmountRight" class="loanAmountRight"></span>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+					<div class="filterRight clearfix">
+						<div class="filterCol">
+							<label class="lblBlock">Brands</label>
+							<select name="" id="">
+								<option value="Select">Select</option>
+								<option value="">Option2</option>
+								<option value="">Option3</option>
+								<option value="">Option4</option>
+								<option value="">Option5</option>
+							</select>
+						</div>
+						<div class="filterCol">
+							<label class="lblBlock">State</label>
+							<select name="" id="">
+								<option value="Select">Select</option>
+								<option value="">Option2</option>
+								<option value="">Option3</option>
+								<option value="">Option4</option>
+								<option value="">Option5</option>
+							</select>
+						</div>
+						<div class="filterCol">
+							<label class="lblBlock">Financial Type</label>
+							<select name="" id="">
+								<option value="Select">Select</option>
+								<option value="">Option2</option>
+								<option value="">Option3</option>
+								<option value="">Option4</option>
+								<option value="">Option5</option>
+							</select>
+						</div>
+						<div class="filterCol">
+							<label class="lblBlock">Project Type</label>
+							<select name="" id="">
+								<option value="Select">Select</option>
+								<option value="">Option2</option>
+								<option value="">Option3</option>
+								<option value="">Option4</option>
+								<option value="">Option5</option>
+							</select>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Header End-->
+	<div class="recentTransactionOuter clearfix">
+		<div class="container clearfix">
+			<div class="transactionHeader clearfix">
+				<h2>Recent Transactions</h2>
+				<div class="transactionView">
+					<span class="txtViewBy">View by</span>
+					<ul class="viewBy">
+						<li><a class="txtListView" href="#listView"><span>List View</span></a></li>
+						<li><a class="txtMapView" href="#mapView"><span>Map View</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="listView" class="viewContent clearfix">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel1.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel2.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel3.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel4.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel5.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="hotelBox">
+							<div class="hotelImg"><img src="images/hotel6.jpg" alt=""></div>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="mapView" class="viewContent clearfix">
+				<div class="mapViewCont clearfix">
+					<div class="locationCont">
+						<a class="locIcon" href="javascript:void(0)"><img src="images/locationIcon.png" alt=""></a>
+						<div class="hotelPopup">
+							<span class="tooltiArrow"><img src="images/tooltipArrow.png" alt=""></span>
+							<div class="hotelDetails clearfix">
+								<h3>Double Tree Atlantic Beach</h3>
+								<h4>North Carolina</h4>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Loan Amount</h5>
+										<h6>$ 85,000</h6>
+									</div>
+									<div class="hotelCol">
+										<h5>Financing Type</h5>
+										<h6>Bridge Financing</h6>
+									</div>
+								</div>
+								<div class="hotelDescRow clearfix">
+									<div class="hotelCol">
+										<h5>Project Type</h5>
+										<h6>Acquisition/Conversion</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="images/imgMapView.jpg" alt="">
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<!--Social-->
+	<div class="socialWrapper clearfix">
+		<div class="socialInner">
+			<div class="socialIcon">
+				<ul class="socialList">
+					<li><a href="javascript:void(0);"><img src="images/fb-icon.png" alt=""></a></li>
+					<li><a href="javascript:void(0);"><img src="images/in-icon.png" alt=""></a></li>
+					<li><a href="javascript:void(0);"><img src="images/twitter-icon.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!---Footer-->
+	<footer class="footer clearfix">
+		<div class="container clearfix">
+			<div class="logoFooter"><a href="index.html"><img src="images/footer-logo.png" alt=""></a></div>
+			<nav class="footNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a class="active" href="about-us.html">About Us</a></li>
+					<li><a href="loan-programs.html">Loan Programs</a></li>
+					<li><a href="case-studies.html">Case Studies</a></li>
+					<li><a href="strategic-partners.html">Partners</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="contact-us.html">Contact</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/viewportchecker.js"></script>
+	<script src="js/jquery.access-point.js"></script>
+	<script>
+		//Function for view By
+		function viewBy(){
+			$(".viewContent").eq(0).slideDown(300);
+			$(".viewBy li a").eq(0).addClass("activeView");
+			$(".viewBy li a").each(function(){
+				$(this).on("click", function(){
+					var target = $(this).attr("href");
+					$(".activeView").removeClass("activeView");
+					$(this).addClass("activeView");
+					$(".viewContent").slideUp(300);
+					$(target).slideDown(300);
+					return false;
+				});
+			});
+		}
+
+		//Function for Loan Amount Range
+		function loanAmount(){
+			$( "#slider-range" ).slider({
+				range: true,
+				min: 0,
+				max: 15000,
+				values: [ 3450, 12000 ],
+				slide: function( event, ui ) {
+					$( "#loanAmountLeft" ).text( "$ " + ui.values[ 0 ]);
+					$( "#loanAmountRight" ).text( "$ " + ui.values[ 1 ]);
+				}
+    		});
+
+    		$( "#loanAmountLeft" ).text( "$ " + $( "#slider-range" ).slider( "values", 0 ));
+    		$( "#loanAmountRight" ).text( "$ " + $( "#slider-range" ).slider( "values", 1 ));
+		}
+
+		$(function(){
+			viewBy();
+			loanAmount();
+		});
+  	</script>
+</body>
+</html>

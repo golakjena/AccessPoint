@@ -1,0 +1,24 @@
+
+a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+.slideWrap{ position: relative;}
+.slidesjs-pagination{ width: 100%; position: absolute; bottom: 0; right: 0; z-index: 999;}
+.pagginInner{ float: right; margin: 0 50px 50px 0;}
+.slidesjs-pagination li{ display: inline-block; margin: 0 5px 0 0;}
+.slidesjs-pagination li a{ display: inline-block; text-indent: -999999px; width: 10px; height: 10px; background: #fff; opacity: 0.5; border-radius: 50px; overflow: hidden;}
+.slidesjs-pagination li a:hover, .slidesjs-pagination li a.active{ background: #fff; opacity: 1;}
+
+

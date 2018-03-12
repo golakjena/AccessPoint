@@ -1,0 +1,257 @@
+@media (min-width:320px) and (max-width:767px){
+	.header{ height: 55px;}
+	.logo{ width: 170px;}
+	.topNav{ display: none;}
+	.btnMobileNav{ display: block;}
+	.mobileNav{ display: block;}
+
+	/***
+	Index
+	***/
+	.bannerHome{ height: 250px;}
+	.trustedPartner{ padding: 15px 0;}
+	.trustLeft{ width: 100%; font-size: 22px; line-height: 26px; margin: 0 0px 10px 0;}
+	.mTop50{ margin: 20px 0 0 0;}
+	.heading2{ font-size: 18px; line-height: 20px; margin: 0 0 15px 0;}
+	.caseStudyCol h2{ font-size: 18px; line-height: 20px; margin: 0 0 15px 0;}
+	.teamCol{ width: auto; float: none; max-width: 216px; margin: 0 auto; padding: 0 0 2px 0; margin-bottom: 5px;}
+	.pTop70{ padding-top: 30px;}
+	.trustRight{ overflow: visible;}
+	.testimonialHeading{ font-size: 26px; margin: 0 0 15px 0;}
+	.testiDesc{ margin: 0 0 20px 0;}
+	.testiInner{ padding:35px 15px;}
+	.testiArrow{ display: none;}
+	.socialWrapper{ padding: 20px 0;}
+	.stepCol{ width: 210px; padding: 0 0 30px 0; margin: 0 auto; float: none;}
+
+	/***
+	About US
+	***/
+	.dvContent{ padding: 30px 0;}
+	.row.pTop50{ padding-top: 30px;}
+	.subHeader{ display: none;}
+	.banner{ margin: 55px 0 0 0;}
+	.banner2{ margin: 55px 0 0 0;}
+	.eventsDetails{ margin: 55px 0 0 0;}
+	.pagginInner{ margin: 0 20px 20px 0;}
+	.transaction{ padding: 50px 20px 0 20px;}
+	.slideRow > img{ width: 100%;}
+	#bannerSlider .slidesjs-container{ height: 150px !important;}
+	#bannerSlider .slideRow > img{ height: 150px !important;}
+	.partnerLogoCont{ margin: 0;}
+	.blogOuter{ margin: 55px 0 0 0;}
+	.blogCont{ padding: 20px;}
+	.eventDate{ width: 100%; float: left; margin: 0 0 10px 0;}
+	.eventDate h3{ font-size: 22px; line-height: 28px; float: left;}
+	.separator{ float: left; width: 15px; margin: 11px 10px 0;}
+	.eventDate h4{ font-size: 22px; line-height: 28px; float: left;}
+	.eventDesc h3{ font-size: 18px; margin: 15px 0 10px 0;}
+	
+	.updateCol1{ width: 100%; margin: 0 0 5px 0; padding: 0;}
+	.updateCol2{ width: 100%;}
+	.ourTeamOuter{ padding: 30px 0 0 0;}
+	.financingSolution li{ font-size: 14px; margin: 0 0 10px 0;}
+	.quote{ padding: 0 0 20px 0;}
+	.bridgeCol h3{ font-size: 16px; line-height: 24px;}
+	.bridgeCol h4{ margin: 0 0 20px 0; font-size: 14px; line-height: 24px;}
+	.transactionLeft{ width: 100%; border-right: 0; border-bottom: 1px #999999 solid; padding: 15px;}
+	.transactionLeft span{ right: auto; top: auto; bottom: -12px; left: 30px; transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); -ms-transform:rotate(90deg);}
+	.transactionRight{ width: 100%; border-left: 0; margin: 0; padding: 15px;}
+	.caseStudyNavOuter{ padding: 0;}
+	.caseStudyNav{ text-align: left;}
+	.caseStudyNav li{ display: block;}
+	.caseStudyNav li a{ display: block; padding: 5px 10px 5px 10px;}
+	
+	.dvYear{ width: 100px; margin: 0 0 15px 0;}
+	.dvMonth{ overflow: visible; width: 100%; float: left; padding: 0;}
+	.calender ul li{ font-size: 12px; margin: 0 10px 0 0;}
+	.blogLeft{ width: 100%;}
+	.blogCont h3{ font-size: 18px; line-height: 26px; margin: 0 0 20px 0;}
+	.blogRight{ width: 100%; padding:25px 15px;}
+	.blogRight h2{ font-size: 16px; line-height: 20px; padding: 0 0 10px 15px;}
+	.dvFeaturedArticle{ margin: 0 0 40px 0; padding: 0 0 0 15px;}
+	.dvFeaturedArticle h5{ font-size: 16px; line-height: 22px;}
+
+	.eventsOuter{ padding: 30px 0;}
+	.eventRow{ padding: 30px 0 0 0;}
+
+	.dvExited{ padding: 30px 0 0 0;}
+	.dvExited h2{ font-size: 22px; line-height: 26px;}
+	.line{ height: 4px;}
+	.contactLeft{ width: 100%;}
+	.contactRight{ width: 100%; margin:40px 0 30px 0;}
+	.contactOuter{ padding: 30px 0 0 0;}
+	.contactLeft h3{ font-size: 26px; line-height: 28px; margin:0;}
+	.line2{ margin: 0 0 15px 0;}
+	.locationRow h4{ font-size: 18px; line-height: 22px;}
+	
+	.newsLeft{ width: 100%; margin: 0 0 30px 0;}
+	.blackArrow{ right: auto; top: auto; bottom: -20px; left: 30px; transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); -ms-transform:rotate(90deg);}
+	.newsCont{ padding: 15px;}
+	.newsRight{ display: none;}
+	.newsCont h3{ font-size: 18px; line-height: 22px; padding: 0 0 20px 0;}
+	.eventDetailsLeft h3{ font-size: 18px;}
+	.eventDetailsRow{ padding: 30px 0 0 0;}
+	.detailRow h4{ font-size: 14px;}
+	.eventDetailsRight{ margin: 30px 0 0 0;}
+	.footer{ padding: 20px 0; text-align: center;}
+	.logoFooter{ float: none; width: 170px;}
+
+	.footNav{ display: none;}
+
+	.teamDesc{ top: auto; bottom: 0; height: 70px; opacity: 0.5; display: block !important;}
+	.teamDesc h3{ font-size: 16px; padding: 0;}
+	.teamDesc p{ font-size: 12px; padding: 0; line-height: 14px;}
+	.dvContent.dvNoPadding{ padding: 0;}
+	.dvContent.noTopPadding{ padding: 0 0 30px 0;}
+	.dvContent.caseStudyCol{ padding: 30px 0 0 0;}
+	.rsDefault .rsBullets{ bottom: 10px; padding: 0 10px 0 0;}
+
+	.bioOuter{ padding: 30px 0;}
+	.bioImg{ width: 65px; margin: 0 15px 0 0;}
+	.bioDesc h3{ font-size: 18px;}
+	.bioDesc h4{ font-size: 13px;}
+	.bioDesc p{ padding: 15px 0 0 0;}
+
+
+	/***
+	Register
+	***/
+	.registerOuter{ margin: 55px 0 0 0;}
+	.registerSteps li{ width: 145px;}
+	.txtStep{ font-size: 13px;}
+	.registerRow{ padding: 0 15px;}
+	.registerTopHeading{ font-size: 22px; padding: 30px 0;}
+	.registerWrapper{ padding: 15px;}
+	.registerWrapper h3{ font-size: 18px; padding: 0 0 20px 0;}
+	.formRow input[type="text"], .formRow input[type="password"]{ font-size: 14px; padding: 10px;}
+	.formRow{ padding: 0 0 25px 0;}
+	.registerWrapper h4{ font-size: 16px; padding: 0 0 20px 0;}
+	.mGap{ margin: 25px 0 0 0;}
+	.btnNextCont{ padding: 30px 0;}
+	.btnNext{ padding: 10px 40px;}
+
+	.registerSteps li{ background: none; margin: 0 0 30px 0; width: 100%;}
+	.registerSteps li:last-child{ margin: 0;}
+	#frmPrevBtn, #frmNextBtn{ width: 30px; height: auto;}
+	
+	.formInner{ padding:20px 0 0 0;}
+	.loginOuter{ margin: 55px 0 0 0; padding: 30px 0;}
+	.loginInnerWrap h3{ padding: 0 0 30px 0;}
+	.loginInnerWrap{ padding: 0 10px;}
+	.loginFrmRow input[type="text"], .loginFrmRow input[type="password"], .loginFrmRow select{ padding: 10px; font-size: 16px;}
+	.loginFrmRow{ margin: 0 0 20px 0;}
+
+	/***
+	Profile
+	***/
+	.profileOuter{ margin: 55px 0 0 0; padding: 30px 0;}
+	.myProfileWrap h2{ font-size: 22px; padding: 0 0 20px 0;}
+	.profileGap{ padding-bottom: 20px;}
+	.profilePic{ width: 60px; height: 60px;}
+	.userName{ font-size: 18px; margin: 17px 0 0 10px;}
+	.userDetails{ padding-top: 10px;}
+	.userDetails h4{ font-size: 16px;}
+	.userDetails p{ font-size: 16px;}
+	.detailHeading{ padding: 0 0 15px 0;}
+	.detailHeading h3{ font-size: 16px;}
+	.detailBox{ padding: 15px;}
+	.txtNewApplication{ font-size: 14px;}
+	.applicationBox{ width: 100%; margin: 0 0 20px 0; padding: 10px;}
+	.editList li{ margin: 0 0 0 10px;}
+	.applicationBox h2{ font-size: 16px;}
+	.dvView h3{ font-size: 16px;}
+	.applicationBox h4{ font-size: 16px;}
+	.applicationBox p{ font-size: 16px;}
+	
+	/***
+	New CSS on 09032016
+	***/
+	.trustedPartner{ padding:50px 0 15px 0;}
+	.downloadAppOuter{ padding: 25px 15px; }
+	.appBtn ul li{ margin:5px; }
+	.incIcon{ max-width: 80px; top: -40px; }
+	
+
+	.filterOuter{ margin:55px 0 0 0; }
+	.txtApplyFilters{ margin:0 0 20px 0; width: 100%; float: left;}
+	.filterLeft{ margin:0 0 20px 0; }
+	.filterCol{ width: 100%; padding: 0; margin:0 0 15px 0; }
+	.recentTransactionOuter{ padding: 30px 0 0 0; }
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.header{ height: 55px;}
+	.logo{ width: 170px;}
+	.topNav{ display: none;}
+	.btnMobileNav{ display: block;}
+	.mobileNav{ display: block;}
+
+	/***
+	Index
+	***/
+	.bannerHome{ height: 450px;}
+	.trustLeft{ width: 350px; font-size: 28px; line-height: 32px; margin: 0 20px 0 0;}
+	.testimonialHeading{ font-size: 26px; margin: 0 0 15px 0;}
+	.testiDesc{ margin: 0 0 20px 0;}
+
+	/***
+	About US
+	***/
+	.dvContent{ padding: 30px 10px;}
+	.row.pTop50{ padding-top: 30px;}
+	.subHeader{ display: none;}
+	.banner{ margin: 55px 0 0 0;}
+	.banner2{ margin: 55px 0 0 0;}
+	.eventsDetails{ margin: 55px 0 0 0;}
+	.pagginInner{ margin: 0 20px 20px 0;}
+	.transaction{ padding: 50px 20px 0 20px;}
+	.slideRow > img{ width: 100%;}
+	.partnerLogoCont{ margin: 0;}
+	.newsLeft{ width: 300px; margin: 0 30px 0 0;}
+	.newsCont{ padding: 15px;}
+	.blogOuter{ margin: 55px 0 0 0;}
+	.blogCont{ padding: 20px;}
+	.eventDate h3{ font-size: 22px; line-height: 28px;}
+	.eventDate h4{ font-size: 22px; line-height: 28px;}
+	.contactRight{ padding: 0 0 0 20px;}
+	.updateCol1{ width: 100%; margin: 0 0 5px 0; padding: 0;}
+	.updateCol2{ width: 100%;}
+
+
+	.footNav{ display: none;}
+
+	/***
+	Register
+	***/
+	.registerOuter{ margin: 55px 0 0 0;}
+	.registerSteps li{ width: 145px;}
+	.txtStep{ font-size: 13px;}
+	.registerRow{ padding: 0 15px;}
+	
+	/***
+	Profile
+	***/
+	.profileOuter{ margin: 55px 0 0 0; padding: 30px 0;}
+	.myProfileWrap h2{ font-size: 26px; padding: 0 0 20px 0;}
+	.profilePic{ width: 60px; height: 60px;}
+	.userName{ font-size: 18px; margin: 17px 0 0 10px;}
+	.userDetails{ padding-top: 10px;}
+	.userDetails h4{ font-size: 16px;}
+	.userDetails p{ font-size: 16px;}
+	.detailHeading h3{ font-size: 18px;}
+	.applicationBox h2{ font-size: 16px;}
+	.dvView h3{ font-size: 16px;}
+	.applicationBox h4{ font-size: 16px;}
+	.applicationBox p{ font-size: 16px;}
+
+	.filterOuter{ margin:55px 0 0 0; }
+	.filterLeft{ margin:0 0 20px 0; }
+	.recentTransactionOuter{ padding: 30px 0 0 0; }
+}
+	
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+}
